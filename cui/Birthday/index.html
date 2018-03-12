@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Birthday to you</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="/favicon.ico">
+	<link rel="stylesheet" href="src/css/index.css">
+</head>
+<body>
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span> <br />
+			<span class="space"/>
+				<span class="comments">* We are both programmers,</span>
+				<br />
+			<span class="space"/>
+				<span class="comments">* So I want to celebrate your birthday 
+				</span>
+				<br />
+			<span class="space"/>
+				<span class="comments">* in a programmer's way.</span>
+				<br />
+			<span class="space"/>
+				<span class="comments">*/</span> <br />
+				Family yourFamily = <span class="keyword">new</span> Family();<br />
+			<span class="comments">// Aug, 24, You were born. </span><br />
+				Girl u = yourFamily.addNewMember(<span class="string">"CuiLijun"</span>);<br />
+			<span class="comments">
+				// You grew up in this family.
+			</span><br />
+				u.growing();<br />
+			<span class="comments">
+				// You make friends with others.
+			</span><br />
+				Friend yourFriends = u.makeFriends();<br />
+			<span class="comments">
+				// And I am pleased to be able to<br />
+				// recognize your in BeiJing.
+			</span><br />
+				Friend i = yourFriends.oneOf(u);<br />
+			<span class="keyword">String</span> words = <span class="string">"Hoping God bless you and your family greatly, Wish everything fine with your work."</span>; <br />
+				i.celebrate(u, words); <br />
+			<span class="keyword">while</span> (<span class="keyword">true</span>) {<br />
+			<span class="placeholder"/><span class="comments">// I hope you can be happy</span><br />
+			<span class="placeholder"/><span class="comments">// even though on a business trip.</span><br />
+			<span class="placeholder"/>u.happiness(); <br>
+			}<br />
+			<span class="comments">
+				// O ever youthful, O ever weeping, O ever 18.
+			</span><br />
+		</div>
+	</div>
+
+	<script src="src/lib/jquery.js"></script>
+	<script src="src/js/index.js"></script>
+	<script>
+		$("#code").typewriter();
+	</script>
+</body>
+</html>

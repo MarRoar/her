@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFEE;
+	font-size: 16px;
+	overflow: auto;
+}
+#content {
+	padding: 0.65rem;
+}
+
+#code {
+	float: left;
+	width: 100%;
+	color: #333;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 0.9rem;
+}
+
+#code .string {
+	color: #2a36ff;
+}
+
+#code .keyword {
+	color: #7f0055;
+	font-weight: bold;
+}
+
+#code .placeholder {
+	margin-left: 0.93rem;
+}
+
+#code .space {
+	margin-left: 0.4rem;
+}
+
+#code .comments {
+	color: #3f7f5f;
+}
+
+#copyright {
+	margin-top: 0.625rem;
+	text-align: center;
+	width: 100%;
+	color: #666;
+}
+
+#errorMsg {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	position: absolute;
+	top: 6.25rem;
+	left: 0rem;
+}
+
+#copyright a {
+	color: #666;
+}
